@@ -4,9 +4,13 @@ import "./App.css"
 function App() {
   return (
     <div className="App">
-			<div className="box Header">Header</div>
-			<div className="box Ratings">Ratings</div>
-			<div className="box Reviews">Reviews</div>
+			<div className="Header">
+				<h1>10,000+ of our users love our products.</h1>
+				<p>We only provide great products combined with excellent customer service.
+					See what our satisfied customers are saying about our services.</p>
+			</div>
+			<div className="Ratings">Ratings</div>
+			<div className="Reviews">Reviews</div>
     </div>
   );
 }
